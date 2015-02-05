@@ -9,7 +9,7 @@
 
 		if( window.top === window ) {
 			var statusMessage = 'BeebAlt is loaded';
-			
+
 			// Look for a news/sport article
 			var articleContent = document.getElementById('main-content')
 				.getElementsByClassName('story-body')[0];
@@ -87,4 +87,4 @@
 
 	// ask proxy.html for settings
 	safari.self.tab.dispatchMessage("getSettings");
-}()) 
+}())
